@@ -4,13 +4,13 @@
 The objective of this assignment is to implement an end-to-end Machine Learning classification pipeline. This involves training multiple classification models on a chosen dataset to predict a target variable, evaluating their performance using various metrics, and deploying the best-performing models via an interactive Streamlit web application. The goal is to demonstrate proficiency in the entire ML workflow: data selection, preprocessing, modeling, evaluation, and deployment.
 
 ## b. Dataset Description
-**Dataset Name:** Breast Cancer Wisconsin (Diagnostic) Dataset
-**Source:** sklearn.datasets (originally from UCI Machine Learning Repository)
-**Description:** Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image.
-**Target:** Diagnosis (M = malignant, B = benign)
-**Features:** 30 numeric features (radius, texture, perimeter, area, smoothness, compactness, concavity, concave points, symmetry, fractal dimension).
-**Instances:** 569 (Meets requirement of >= 500)
-**Feature Count:** 30 (Meets requirement of >= 12)
+**Dataset Name:** Breast Cancer Wisconsin (Diagnostic) Dataset <br>
+**Source:** sklearn.datasets (originally from UCI Machine Learning Repository) <br>
+**Description:** Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image. <br>
+**Target:** Diagnosis (M = malignant, B = benign) <br>
+**Features:** 30 numeric features (radius, texture, perimeter, area, smoothness, compactness, concavity, concave points, symmetry, fractal dimension). <br>
+**Instances:** 569 (Meets requirement of >= 500) <br>
+**Feature Count:** 30 (Meets requirement of >= 12) <br>
 
 ## c. Models Used & Comparison Table
 
