@@ -96,8 +96,23 @@ if st.button("Predict"):
              st.write(f"Confidence (Malignant): {prediction_proba[0]:.2f}")
 
         # Dataset Info
-        with st.expander("Dataset Information"):
-            st.write(data.DESCR)
+        st.markdown("---")
+        st.subheader("📊 Dataset Overview")
+        st.markdown("The **Breast Cancer Wisconsin (Diagnostic)** dataset is used to predict whether a cancer is benign or malignant.")
+        
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            st.metric("Total Samples", data.data.shape[0])
+        with col2:
+            st.metric("Total Features", data.data.shape[1])
+        with col3:
+            st.metric("Classes", f"{len(data.target_names)} ({', '.join(data.target_names)})")
+            
+        with st.expander("🔍 View Dataset Sample"):
+            st.dataframe(X.head(10))
+            st.markdown("**Feature Description:**")
+            st.info("Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image.")
+
     else:
         st.error("Model could not be loaded.")
 

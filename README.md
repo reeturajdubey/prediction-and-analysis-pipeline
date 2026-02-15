@@ -1,4 +1,4 @@
-# ML Assignment 2: Classification Models & Streamlit App
+# Breast Cancer Prediction & Analysis Pipeline
 
 ## a. Problem Statement
 The objective of this assignment is to implement an end-to-end Machine Learning classification pipeline. This involves training multiple classification models on a chosen dataset to predict a target variable, evaluating their performance using various metrics, and deploying the best-performing models via an interactive Streamlit web application. The goal is to demonstrate proficiency in the entire ML workflow: data selection, preprocessing, modeling, evaluation, and deployment.
